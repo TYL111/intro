@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh_TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City-CaCorn</title>
+    <link rel="stylesheet" href="./css_js/style.css">
+    <link rel="stylesheet" href="./css_js/reset.css">
+    <link rel="stylesheet" href="/css_js/font.css">
+</head>
+<body>
+    <div class="shop-bg">
+        <div class="order">
+            <form method="POST" action="order.php">
+            <img src="./img/goodphoto.webp" alt="" class="good-img">
+            <div class="good">
+                <h2>City CaCorn <p>®</p></h2><h1>咖啡玉米脆片</h1>
+                <h3 class="font-content">咖啡玉米脆片將玉米的香甜味道與香醇咖啡的濃郁風味完美融合在一起。不僅充滿了咖啡的香氣，而且口味多層次、含有豐富維生素，讓您在享受零食的同時也能補充維生素。這款健康又美味的零嘴一定能成為你最喜愛的零食之一！</h3>
+                <span class="font-title">30g / 一包</span>
+                <h4>NT$49</h4>
+            </div>
+            <div class="amount"><p class="font-content">訂購數量：<input type="number" id="amount" name="amount" value="" required></p></div>
+            <div class="customer">
+                <h1 class="font-content">購買人資訊</h1>
+                <a href="https://buy.stripe.com/7sI2bVdUkczzcOQ147" class="credit">* 線上刷卡請點我 (沒錯！就是點我)，勿填寫底下表單資料。</a>
+                <div class="infor">
+                    <p class="font-content">姓名</p><input class="input" type="text" name="name" id="name" placeholder="請填寫中文姓名" required>
+                    <p class="font-content">Email</p><input class="input" type="email" name="email" id="email" placeholder="請填寫有效電子郵件" required>
+                    <p class="font-content">電話</p><input class="input" type="tel" name="tel" id="tel" placeholder="EX: 0900123123" required>
+                    <div class="pay font-content">
+                        <p>付款方式 
+                            <input type="radio" name="Payment" id="Payment" value="BANK" required><span>銀行轉帳</span>
+                            <input type="radio" name="Payment" id="Payment" value="CVS" required><span>超商代碼</span>
+                        </p>
+                    </div>
+                    <p class="font-content">地址</p><input class="input" type="address" id="devr" name="devr" placeholder="請包含郵遞區號及門牌號碼" required>
+                    <p class="font-content">備註</p><textarea cols="51" rows="10" name="note" id="note" placeholder="例如：指定快遞送貨時間、商品備註、不要加香菜等，無則免填"></textarea>
+                </div>
+            </div>
+            <button class="finish font-content">下訂單</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

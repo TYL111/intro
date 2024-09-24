@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap');
+.font-content {
+    font-family: 'Klee One', cursive;
+}
+.font-nav {
+    font-family: 'Yuji Mai', serif;
+}
+.font-title {
+    font-family: 'Yuji Syuku', serif;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* font-family: 'Press Start 2P', cursive; */
+*{
+    margin: 0;
+}
+
+.bg{
+    position: fixed;
+    background-image: url(./background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+.cmd-window {
+    background-image: url(CMD.png);
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50vh;
+    margin-top: -300px;
+    opacity: 95%;
+}
+.cmd {
+    position: absolute;
+    top: 45px;
+    left: 20px;
+    display: flex;
+    font-size: 16px;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+.cmd input {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    height: fit-content;
+    border: 0;
+    color: white;
+    background-color:unset;
+}
+.cmd input:focus {
+    outline: none;
+}
+.result p{
+    position: absolute;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    top: 90px;
+    left: 20px;
+    font-size: 16px;
+    line-height: 40px;
+}
+.result span {
+    position: absolute;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    top: 150px;
+    left: 20px;
+    line-height: 15px;
+}

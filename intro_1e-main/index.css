@@ -1,0 +1,121 @@
+body{
+    text-align: center;
+    color:white;
+}
+.background{
+
+    position: fixed;
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.profiled-card{
+    box-shadow:0 25px 200px -60px white;
+    border-radius: 30px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border:2px solid #ffffff40 ;
+    position: relative;
+    padding: 50px;
+    height: 800px;
+    width: 400px;
+
+}
+
+.myphoto {
+    display: block;
+    margin: auto;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    text-align: center;
+    
+}
+
+div.aboutme{
+    padding-bottom: 1.5em;
+    fill:white;
+    display: inline-flex;
+    align-items: center;
+}
+
+.aboutme{
+    font-style: oblique;
+}
+
+.name {
+    color:whitesmoke;
+}
+
+span.title {
+    line-height: 2em;
+    font-weight:800;
+    font-size: x-large;
+    color:rgb(205, 247, 232);
+}
+
+.content{
+    font-style:italic;
+
+}
+
+a{
+    display: inline-flex;
+    margin: 15px;
+    border-radius: 50%;
+}
+
+a.fb{
+    background-color: white;
+    fill: #4267B2;
+}
+
+a.ig{
+    background-color: white;
+    fill:#E1306C
+}
+
+a.mail{
+    fill: lightskyblue;
+}
+
+a.dc{
+    background-color:#5865F2 ;
+    fill:white
+}
+
+
+@media screen and (max-width:1000px){
+    .myphoto{
+        height: 200px;
+    }
+    .aboutme{
+        font-size: 25px;
+    }
+    .name{
+        font-size: 60px;
+    }
+    span.title{
+        font-size: 50px;
+    }
+    .content{
+        font-size: 35px;
+    }
+
+    .profiled-card{
+        margin-top:25%;
+        padding-top: 75px;
+        width: 65%;
+        height: 90%;
+    }
+}
+

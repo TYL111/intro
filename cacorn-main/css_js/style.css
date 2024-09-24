@@ -1,0 +1,539 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar,
+.buy {
+    z-index: 1;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    border: solid rgba(0, 0, 0, 0.899) 1px;
+    border-radius: 100vw;
+    background: #f1fa8e;
+}
+
+.navbar {
+    left: 50%;
+    margin-left: -340px;
+    top: 5vh;
+    width: 680px;
+}
+
+.buy {
+    position: absolute;
+    width: 170px;
+    right: -20vw;
+}
+
+.navbar a,
+.buy a {
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a:hover,
+.buy a:hover {
+    margin: 0;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: #fcffde;
+    border-radius: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.main-bg,
+.ingredient-bg {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-bg {
+    height: 100vh;
+    background: #f1fa8e;
+}
+
+.intro-bg {
+    height: 1200px;
+    background: #FEF0D3;
+}
+
+.ingredient-bg {
+    height: 800px;
+    background: #FEF0D3;
+}
+
+.do-bg {
+    height: 2000px;
+    background-color: #FFEFB0;
+}
+
+.contact-bg {
+    height: 10vh;
+    background-color: #101010;
+}
+
+.tp {
+    margin-top: -25vh;
+    height: 25vh;
+}
+
+
+
+
+
+.logo {
+    position: absolute;
+    top: 4vh;
+    width: 15vw;
+    z-index: 1;
+    left: 3%;
+}
+
+.main {
+    height: 50vh;
+    width: 90vw;
+    max-width: 1500px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+}
+
+#cacorn {
+    font-size: 3.5rem;
+    line-height: 80px;
+}
+
+.main h1 {
+    font-size: 5rem;
+}
+
+.main p {
+    margin-top: 5vh;
+    width: 45%;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    font-weight: 1000;
+}
+
+.main img {
+    position: absolute;
+    width: 50%;
+    max-width: 600px;
+    top: 60px;
+    right: 0;
+}
+
+.about {
+    margin-top: 10vh;
+}
+
+.main-buynow,
+.more {
+    padding: .5vw 1vw .5vw 1vw;
+    font-size: 1.5rem;
+    text-decoration: none;
+    font-weight: 900;
+    transition: .4s;
+    border-radius: 10px;
+}
+
+.main-buynow {
+    border: solid rgb(255, 130, 57) 2px;
+    background-color: rgb(255, 130, 57);
+    color: white;
+}
+
+.main-buynow:hover {
+    background-color: #f1fa8e;
+    color: rgb(255, 130, 57);
+}
+
+.more {
+    border: solid rgb(255, 130, 57) 2px;
+    background-color: #f1fa8e;
+    color: rgb(255, 130, 57);
+    margin-left: 80px;
+}
+
+.more:hover {
+    color: white;
+    background-color: rgb(255, 130, 57);
+}
+
+
+
+
+
+.intro {
+    padding-top: 25vh;
+    width: fit-content;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro h1 {
+    font-weight: 500;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.intro img {
+    width: 1200px;
+    margin-top: 100px;
+}
+
+
+
+
+
+.ingredient {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1050px;
+}
+
+.ingredient h1 {
+    font-weight: 500;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+}
+
+.corn,
+.coffee,
+.suger,
+.water {
+    width: 150px;
+    display: inline-block;
+    margin: 50px;
+    margin-top: 100px;
+}
+
+.ingredient img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.ingredient p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+.do {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 45vh;
+}
+
+.do h1 {
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+    position: absolute;
+    top: -20vh;
+}
+
+.step,
+.line,
+.step-do {
+    display: inline-block;
+    width: fit-content;
+    position: absolute;
+}
+
+.line {
+    top: 37px;
+    left: 100px;
+}
+
+.step-do {
+    top: 34px;
+    left: 170px;
+}
+
+.s1,
+.s2,
+.s3,
+.s4,
+.s5,
+.s6,
+.s7 {
+    margin-bottom: 87px;
+}
+
+.step p {
+    font-size: 20px;
+}
+
+.step span {
+    font-size: 50px;
+}
+
+.dot {
+    background-color: rgb(255, 130, 57);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.bar {
+    margin-top: 39px;
+    margin-bottom: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 130, 57);
+    width: 1px;
+    height: 70px;
+}
+
+.step-do p {
+    font-size: 25px;
+    margin-bottom: 109px;
+    width: 660px;
+    height: 3rem;
+}
+
+
+
+
+
+.contact {
+    position: relative;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4vh;
+}
+
+.contact p {
+    width: fit-content;
+    color: white;
+    font-size: 10px;
+}
+
+.contact span {
+    position: absolute;
+    color: white;
+    right: 0;
+    font-size: 10px;
+}
+
+#mail {
+    top: 3vh;
+}
+
+#tel {
+    top: 5vh;
+}
+
+
+/* shop */
+
+
+.shop-bg {
+    background-color: #F5FF7D;
+    height: 100%;
+    width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.order {
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 25px 200px -60px rgb(102, 102, 102);
+    background-color: #fef8ebc8;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 1800px;
+}
+
+.good-img {
+    height: 500px;
+    position: absolute;
+    top: 135px;
+    left: 50px;
+    border: solid rgb(255, 130, 57) 10px;
+    border-radius: 20px;
+}
+
+.good {
+    position: absolute;
+    right: 50px;
+    top: 150px;
+}
+
+.good h1 {
+    font-size: 60px;
+}
+
+.good h2 {
+    font-size: 45px;
+    line-height: 70px;
+}
+
+.good p {
+    display: inline;
+    font-size: 30px;
+}
+
+.good h3 {
+    font-size: 17px;
+    margin-top: 50px;
+    width: 350px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.good span {
+    font-size: 15px;
+}
+
+.good h4 {
+    font-size: 45px;
+    color: rgb(255, 0, 0);
+    margin-top: 50px;
+}
+
+.amount {
+    position: absolute;
+    right: 100px;
+    top: 650px;
+}
+
+.amount p {
+    font-size: 25px;
+}
+
+.amount input {
+    height: 25px;
+    width: 30px;
+    padding-left: 10px;
+}
+
+.customer {
+    position: absolute;
+    top: 850px;
+    width: 700px;
+    height: 800px;
+    right: 100px;
+    border: solid rgb(255, 130, 57) 2px;
+    border-radius: 10px;
+
+}
+
+.customer h1 {
+    position: absolute;
+    top: -23px;
+    left: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: #FCFAD3;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(255, 130, 57);
+    border-radius: 10px;
+    border: solid rgb(255, 130, 57) 2px;
+    padding-top: 2px;
+    padding-bottom: 7px;
+}
+
+.credit {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    top: 35px;
+    left: 100px;
+}
+
+.infor {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.infor p {
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.infor input {
+    padding-left: 10px;
+    font-size: 17px;
+    border: solid #0c0c0c87 1px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.pay {
+    display: flex;
+}
+
+.pay span {
+    font-size: 20px;
+}
+
+.input {
+    height: 25px;
+    width: 500px;
+}
+
+#note {
+    border-radius: 5px;
+    border: solid #0c0c0c87 1px;
+    height: 200px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.finish {
+    position: absolute;
+    bottom: 40px;
+    font-size: 25px;
+    width: 400px;
+    height: 60px;
+    border: solid rgb(255, 130, 57) 2px;
+    border-radius: 100vw;
+    background-color: rgb(255, 130, 57);
+    left: 250px;
+    color: white;
+    transition: .3s;
+}
+
+.finish:hover {
+    background-color: rgba(245, 0, 0, 0.781);
+    border: solid rgb(245, 0, 0, 0.781) 2px;
+
+
+}

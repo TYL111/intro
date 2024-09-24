@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh_TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City-CaCorn</title>
+
+    <link rel="stylesheet" href="./css_js/reset.css">
+    <link rel="stylesheet" href="./css_js/font.css">
+    <link rel="stylesheet" href="./css_js/phone.css">
+</head>
+<body>
+    <form method="POST" action="order.php">
+    <div class="shop-bg">
+        <div class="good-img"><img src="./img/goodphoto.webp" alt=""></div>
+        <div class="good">
+            <h2>City CaCorn <p>®</p></h2><h1>咖啡玉米脆片</h1>
+            <div class="about">
+                <span class="font-title">30g / 一包</span>
+                <h4 class="font-content">NT$49</h4>
+            </div>
+        </div>
+        <div class="amount"><p class="font-content">訂購數量：<input type="number" id="amount" name="amount" value="" required></p></div>
+        <div class="order">
+                <div class="customer">
+                    <h1 class="font-content">購買人資訊</h1>
+                    <div class="credit">
+                        <a href="https://buy.stripe.com/7sI2bVdUkczzcOQ147">線上刷卡請點我 (沒錯！就是點我)</a>
+                    </div>
+                    <div class="infor">
+                    <p class="font-content">姓名</p><input class="input" type="text" name="name" id="name" placeholder="請填寫中文姓名" required>
+                    <p class="font-content">Email</p><input class="input" type="email" name="email" id="email" placeholder="請填寫有效電子郵件" required>
+                    <p class="font-content">電話</p><input class="input" type="tel" name="tel" id="tel" placeholder="EX: 0900123123" required>
+                    <div class="pay font-content">
+                        <p>付款方式
+                            <input type="radio" name="Payment" id="Payment" value="BANK" required>銀行轉帳
+                            <input type="radio" name="Payment" id="Payment" value="CVS" required>超商付款
+                        </p>
+                    </div>
+                    <p class="font-content">地址</p><input class="input" type="address" id="devr" name="devr" placeholder="請包含郵遞區號及門牌號碼" required>
+                    <p class="font-content">備註</p><textarea cols="51" rows="10" name="note" id="note" placeholder="例如：指定快遞送貨時間、商品備註等，無則免填"></textarea>
+                </div>
+                <div class="btn"><button class="finish font-content">下訂單</button></div>
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
